@@ -55,6 +55,11 @@ font-family: 'Karla', sans-serif; */
     line-height: 24px;
     color: #FFFFFF;
     margin-top: 50px;
+    cursor: pointer;
+}
+
+#gen-password-btn:hover {
+    background: #059c6a;
 }
 
 hr {
@@ -84,4 +89,42 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/*RESPONSIVE MODE*/
+
+@media screen and (max-width: 480px) {
+
+    body {
+        background-color: #ECFDF5;
+    }
+   
+    #page-container {
+        width: 100%;
+        margin: auto;
+        padding: 16px;
+        margin-top: 0px;
+        border: none;
+    }
+
+    .heading {
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .heading--h3 {
+        font-size: 16px;
+    }
+
+    hr {
+        width: 100%;
+    }
+
+    #password-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 32px;
+        gap: 1rem;
+    }
 }
