@@ -42,7 +42,7 @@ font-family: 'Karla', sans-serif; */
     margin-top: 8px;
 }
 
-#password-btn {
+#gen-password-btn {
     padding: 10px 20px;
     background: #10B981;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
